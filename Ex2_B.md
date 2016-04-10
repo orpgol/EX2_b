@@ -8,11 +8,11 @@ date: "April 10, 2016"
 output: html_document
 ---
 
-# Ex2_b
+#Ex2_b
 
-## L.A resteraunts along my route
-### [Downloaded using google places API.](https://developers.google.com/places/web-service/intro)
-#### I wanted to find the best retaurants along my route in L.A. Using Google API i could retrieve all retaurants on route and check which are worth eating at.
+##L.A resteraunts along my route
+###[Downloaded using google places API.](https://developers.google.com/places/web-service/intro)
+####I wanted to find the best retaurants along my route in L.A. Using Google API i could retrieve all retaurants on route and check which are worth eating at.
 ```
 
 
