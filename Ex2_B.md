@@ -1,6 +1,5 @@
 
 
-```python
 ---
 title: "markdown_python"
 author: "Orpaz Goldstein"
@@ -16,7 +15,6 @@ L.A resteraunts along my route
 [Downloaded using google places API.](https://developers.google.com/places/web-service/intro)
 
 #### I wanted to find the best retaurants along my route in L.A. Using Google API i could retrieve all retaurants on route and check which are worth eating at.
-```
 
 
 ```python
@@ -46,9 +44,7 @@ import urllib.request
 ```
 
 
-```python
 ##### I'm going to pull the data using one of my app keys on google and aggregating all results into a single dataframe
-```
 
 
 ```python
@@ -80,12 +76,10 @@ for i in range(40):
 ```
 
 
-```python
 ##### The data collected contains a lot of interesting features i can use later on, like 'place_id' that i could use to get more information on a specific restaurant.
 ##### Also 'types' shows the types of food a restaurant is classified with.
 ##### I will focus on loaction, and rating of a restaurant to see how far i will have to stray from my course to eat at a good retaurant.
 
-```
 
 
 ```python
@@ -1224,10 +1218,8 @@ df
 
 
 
-```python
 ##### First, I will plot a 3D scatter to see if i can find interesting clusters.
 ##### I will plot by lat, long, and rating to see how the 3 correlate.
-```
 
 
 ```python
@@ -1252,11 +1244,9 @@ plt.show()
 
 
 
-```python
 ##### I can see 2 main clusters: one between lats 33 - 35, and one between lats 36 - 37
 ##### So these two areas are where i should look for good restaurants.
 ##### Next, i will want to know how far are these resstaurants from my point of origin, so i will plot in 2D the distance from origin vs rating
-```
 
 
 ```python
@@ -1286,10 +1276,8 @@ plt.show()
 
 
 
-```python
 ##### I can see some good retaurants can be found near my origin (blue means closer) with good rating too! maybe i sould start by eating there.
 ##### Lastly, I would want to generate a map with all my collected restaurants so i could remember where i should stop and look for a good place to eat.
-```
 
 
 ```python
@@ -1325,8 +1313,6 @@ plt.show()
 
 
 
-```python
 ##### To sum up, I managed to find high rated restaurants along my route, and filter them by distance and closeness to me. 
 ##### To continue, i will use the API to collect more data on restaurants above a certain threshhold, and cluster them by types of food.
 ##### I could then create a map with the clusters by type of food and decide where to eat by deciding what i feel like eating at that point.
-```
